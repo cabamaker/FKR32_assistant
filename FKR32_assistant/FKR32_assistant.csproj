@@ -102,11 +102,10 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Resource Include="Images\collapsetotraybutton.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\logo.png" />
+    <Resource Include="Images\logo.ico" />
+    <Resource Include="Images\LogoTray.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

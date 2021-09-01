@@ -15,3 +15,5 @@ C:\Git\FKR32_assistant\FKR32_assistant\obj\Debug\FKR32_assistant.exe
 C:\Git\FKR32_assistant\FKR32_assistant\obj\Debug\FKR32_assistant.pdb
 C:\Git\FKR32_assistant\FKR32_assistant\obj\Debug\Theme\MenuButtonTheme.baml
 C:\Git\FKR32_assistant\FKR32_assistant\obj\Debug\App.baml
+C:\Git\FKR32_assistant\FKR32_assistant\bin\Debug\Hardcodet.NotifyIcon.Wpf.dll
+C:\Git\FKR32_assistant\FKR32_assistant\bin\Debug\Hardcodet.NotifyIcon.Wpf.xml

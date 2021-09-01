@@ -11,5 +11,17 @@ namespace FKR32_assistant
         {
             InitializeComponent();
         }
+
+        private void MinButton_Click(object sender, RoutedEventArgs e)
+        {
+
+            this.Hide();
+
+        }
+
+        private void TaskbarIcon_TrayLeftMouseDown(object sender, RoutedEventArgs e)
+        {
+            this.Show();
+        }
     }
 }

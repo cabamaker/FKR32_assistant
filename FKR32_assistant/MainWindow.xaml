@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FKR32_assistant"
+        xmlns:tb="http://www.hardcodet.net/taskbar"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen" ResizeMode="NoResize" 
         WindowStyle="None" Height="600" Width="920"
@@ -32,27 +33,25 @@
                 <RadioButton Content="Главная" Height="50" Foreground="White"
                              FontSize="20" Style="{StaticResource MenuButtonTheme}"/>
                 
-                <RadioButton Content="Не главная" Height="50" Foreground="White"
+                <RadioButton Content="Электр. аукцион" Height="50" Foreground="White"
                              FontSize="20" Style="{StaticResource MenuButtonTheme}"/>
-                
-                <RadioButton Content="Второстепенная" Height="50" Foreground="White"
-                             FontSize="20" Style="{StaticResource MenuButtonTheme}"/>
-                
-                <RadioButton Content="Третьестепенная" Height="50" Foreground="White"
-                             FontSize="20" Style="{StaticResource MenuButtonTheme}"/>
-                
-                <RadioButton Content="Никакая" Height="50" Foreground="White"
+
+                <RadioButton Content="Договора подряда" Height="50" Foreground="White"
                              FontSize="20" Style="{StaticResource MenuButtonTheme}"/>
 
             </StackPanel>
 
-            <TextBlock Grid.Column="1" Text="Заголовок" HorizontalAlignment="Center" Margin="0,0,0,0">
-
-            </TextBlock>
-
-            <Button Grid.Column="1" >
-                
-            </Button>
+            <TextBlock Grid.Column="1" Text="Заголовок" Foreground="White" 
+                       Background="Transparent" HorizontalAlignment="Center" 
+                       Margin="0,0,0,0"/>
+            
+            <tb:TaskbarIcon Visibility="Visible" ToolTipText="FKR32" 
+                            IconSource="Images/Logo.ico"
+                            TrayLeftMouseDown="TaskbarIcon_TrayLeftMouseDown"/>
+            
+            <Button Content="-" Grid.Row="0" Grid.Column="1" 
+                    Background="Transparent" Margin="697,0,0,0"
+                    BorderThickness="0" Click="MinButton_Click"/>
 
         </Grid>
     </Border>
