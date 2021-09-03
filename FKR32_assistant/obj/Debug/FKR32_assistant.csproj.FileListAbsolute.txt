@@ -13,7 +13,9 @@ C:\Git\FKR32_assistant\FKR32_assistant\obj\Debug\FKR32_assistant.csproj.Generate
 C:\Git\FKR32_assistant\FKR32_assistant\obj\Debug\FKR32_assistant.csproj.CoreCompileInputs.cache
 C:\Git\FKR32_assistant\FKR32_assistant\obj\Debug\FKR32_assistant.exe
 C:\Git\FKR32_assistant\FKR32_assistant\obj\Debug\FKR32_assistant.pdb
-C:\Git\FKR32_assistant\FKR32_assistant\obj\Debug\Theme\MenuButtonTheme.baml
 C:\Git\FKR32_assistant\FKR32_assistant\obj\Debug\App.baml
 C:\Git\FKR32_assistant\FKR32_assistant\bin\Debug\Hardcodet.NotifyIcon.Wpf.dll
 C:\Git\FKR32_assistant\FKR32_assistant\bin\Debug\Hardcodet.NotifyIcon.Wpf.xml
+C:\Git\FKR32_assistant\FKR32_assistant\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Git\FKR32_assistant\FKR32_assistant\obj\Debug\FKR32_assistant.csproj.CopyComplete
+C:\Git\FKR32_assistant\FKR32_assistant\obj\Debug\Theme\MenuButtonTheme.baml

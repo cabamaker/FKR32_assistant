@@ -23,5 +23,10 @@ namespace FKR32_assistant
         {
             this.Show();
         }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
